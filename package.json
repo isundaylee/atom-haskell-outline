@@ -6,14 +6,18 @@
   "keywords": [
     "haskell", "outline", "symbols", "atom-ide", "nuclide"
   ],
-  "activationCommands": {
-    "atom-workspace": "haskell-outline:toggle"
-  },
   "repository": "https://github.com/isundaylee/atom-haskell-outline",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "providedServices": {
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlineView"
+      }
+    }
   }
 }
