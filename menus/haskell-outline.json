@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle haskell-outline",
+        "command": "haskell-outline:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "haskell-outline",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "haskell-outline:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
