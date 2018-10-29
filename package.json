@@ -4,7 +4,11 @@
   "version": "0.0.0",
   "description": "Provides Haskell symbol information to the Atom IDE Outline view (also the Nuclide outline view).",
   "keywords": [
-    "haskell", "outline", "symbols", "atom-ide", "nuclide"
+    "haskell",
+    "outline",
+    "symbols",
+    "atom-ide",
+    "nuclide"
   ],
   "repository": "https://github.com/isundaylee/atom-haskell-outline",
   "license": "MIT",
@@ -12,6 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "nuclide-commons": ">= 0.7.0"
   },
   "providedServices": {
     "outline-view": {
